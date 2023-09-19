@@ -13,7 +13,7 @@ namespace Assignment3
         static void Main(string[] args)
         {
             User u1= new User();
-            u1.setName("Ritik Kaushik");
+            u1.setName("Parag Dwivedi");
             Console.WriteLine(u1.getName());
             Console.ReadLine();
         }
@@ -46,7 +46,7 @@ namespace Assignment3
         static void Main(string[] args)
         {
            Login l1 = new Login();
-            l1.setNameLogin("Ritik");
+            l1.setNameLogin("Parag");
             Console.WriteLine(l1.getName());
             Console.ReadLine();
         }
@@ -110,7 +110,7 @@ namespace Assignment3
         static void Main(string[] args)
         {
            Login l1 = new Login();
-            l1.setNameLogin("Ritik");
+            l1.setNameLogin("Parag");
             Console.WriteLine(l1.getName());
             Console.ReadLine();
         }
@@ -153,7 +153,7 @@ namespace Assignment3
 {
     internal class Program
     {
-        internal String name = "HRK";
+        internal String name = "Parag";
         protected internal void getName()
         {
             Console.WriteLine(name);
@@ -201,7 +201,7 @@ namespace Assignment3
         static void Main(string[] args)
         {
            Login l1 = new Login();
-            l1.setNameLogin("Ritik");
+            l1.setNameLogin("Parag");
             Console.WriteLine(l1.getName());
             Console.ReadLine();
         }
@@ -241,14 +241,14 @@ namespace Assignment3
         static void Main(string[] args)
         {
            User l1 = new User();
-            l1.setName("Ritik");
+            l1.setName("Parag");
             Console.WriteLine(l1.getName());
             Console.ReadLine();
         }
     }
     class User
     {
-        public String name="HRK";
+        public String name="Parag";
         public void setName(String name)
         {
             this.name = name;
@@ -276,14 +276,14 @@ namespace Assignment3
         static void Main(string[] args)
         {
            User l1 = new User();
-            l1.setProfile("Ritik",20);
+            l1.setProfile("Parag",20);
             l1.getProfile();
             Console.ReadLine();
         }
     }
     class User
     {
-        public String name="HRK";
+        public String name="Parag";
         private int age;
         public void setProfile(String name,int age)
         {
@@ -317,14 +317,14 @@ namespace Assignment3
         static void Main(string[] args)
         {
            Login l1 = new Login();
-            l1.setNameLoginDetails("Ritik", 21);
+            l1.setNameLoginDetails("Parag", 21);
             l1.getProfile();
             Console.ReadLine();
         }
     }
     class User
     {
-        public String name="HRK";
+        public String name="Parag";
         private int age;
         protected void setProfile(String name,int age)
         {
